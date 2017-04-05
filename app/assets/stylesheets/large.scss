@@ -1,0 +1,26 @@
+@media all and (min-width: 769px) {
+  nav{
+    width: 700px;
+    background-color: #F0F8EA;
+  }
+
+  ul.tabs{
+  }
+
+  ul.tabs li{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  span.online{
+    background-color: #F0F66E;
+  }
+
+}
+
+
+@media only screen and (min-width : 500px) and (max-width : 768px) {
+  nav{
+    display: none;
+  }
+}

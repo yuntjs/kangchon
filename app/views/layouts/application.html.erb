@@ -3,12 +3,26 @@
   <head>
     <title>Kangchon</title>
     <%= csrf_meta_tags %>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Rammetto+One" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+  <div class="nav-div">
+    <nav>
+      <span class='home-nav'>Kang Chon</span>
+      <ul class='tabs'>
+        <li>MENU</li>
+        <li>LOCATIONS</li>
+        <li>ABOUT</li>
+        <li>CATERING</li>
+      </ul>
+      <span class='online-nav'>Order Online</span>
+    </nav>
+  </div>
+
+      <%= yield %>
   </body>
 </html>
