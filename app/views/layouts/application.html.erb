@@ -12,17 +12,18 @@
   <body>
   <div class="nav-div">
     <nav>
-      <span class='home-nav'>Kang Chon</span>
+
+      <a href="#"> <%= image_tag("logo.png", :alt => "logo", :class => "logo-nav") %> </a>
+
       <ul class='tabs'>
-        <li>MENU</li>
-        <li>LOCATIONS</li>
-        <li>ABOUT</li>
-        <li>CATERING</li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">LOCATIONS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CATERING</a></li>
       </ul>
-      <span class='online-nav'>Order Online</span>
+      <span class='online-nav'><a href="#">Order Online</a></span>
     </nav>
   </div>
-
       <%= yield %>
   </body>
 </html>
