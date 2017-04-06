@@ -1,20 +1,53 @@
 @media all and (min-width: 769px) {
   nav{
-    width: 700px;
-    background-color: #F0F8EA;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    // background-color: #F0F8EA;
+    background-color: rgba(240, 248, 234, .7);
+    width: 720px;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.7);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.7);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.7);
+    // border-radius: 20px;
   }
 
   ul.tabs{
+    margin-left: 0;
+    padding-left: 0;
   }
 
   ul.tabs li{
+    font-size: 20px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
-  span.online{
-    background-color: #F0F66E;
+  nav a{
+    text-decoration: none;
   }
+
+  span.online-nav{
+    background-color: #F0F66E;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    margin: 17px 5px 13px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+  }
+
+  span.home-nav{
+    font-size: 30px;
+  }
+
+.logo-nav{
+  width: 80px;
+  height: 100%;
+  padding-top: 5px;
+  // padding-bottom: 20px;
+}
 
 }
 
