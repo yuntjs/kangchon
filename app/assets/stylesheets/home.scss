@@ -16,25 +16,29 @@
   }
 
   .home{
-    background-image: url('kangchon_hero_native.jpg');
+    background-image: url('kangchon_hero_native_small.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  div.nav-div-small{
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
   }
 
   div.nav-div{
-    position: fixed;
-    width: 100%;
+    display: none;
   }
 
-  nav{
+  nav.small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   span.home-nav{
     font-family: 'Rammetto One', cursive;
-  }
-
-  span.online-nav{
-    background-color: #F0F66E;
-    font-family: 'Fjalla One', sans-serif;
   }
 
   ul.tabs{
@@ -42,7 +46,20 @@
     font-family: 'Fjalla One', sans-serif;
   }
 
-  ul.tabs li{
-    display: inline-block;
-    padding-top: 19px;
+  .bar-icon{
+    color: #F0F66E;
+    cursor: pointer;
+  }
+
+  .bar-icon:active{
+    color: #E4572E;
+  }
+
+  .dropdown-list{
+    display: none;
+  }
+
+  .logo-nav{
+    width: 130px;
+    height: auto;
   }
