@@ -34,7 +34,9 @@
   nav.small{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   span.home-nav{
@@ -43,10 +45,25 @@
 
   ul.tabs{
     margin: 0;
+    padding: 0;
     font-family: 'Fjalla One', sans-serif;
+    list-style: none;
+  }
+
+  ul.tabs li{
+    padding-top: 23px;
+    text-align: right;
+  }
+
+  ul.tabs a{
+    text-decoration: none;
+    color: #A8C686;
+    font-size: 18px;
   }
 
   .bar-icon{
+    margin-bottom: 15px;
+    float: right;
     color: #F0F66E;
     cursor: pointer;
   }
@@ -55,11 +72,24 @@
     color: #E4572E;
   }
 
+  .dropdown{
+  }
+
   .dropdown-list{
-    display: none;
+    // display: none;
   }
 
   .logo-nav{
     width: 130px;
     height: auto;
+  }
+
+  .noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
   }

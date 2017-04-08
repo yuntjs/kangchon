@@ -15,3 +15,8 @@
 //= require jquery-ui
 //= require turbolinks
 //= require_tree .
+
+$(document).on('turbolinks:load', function() {
+  new Navigation().init();
+  
+});
