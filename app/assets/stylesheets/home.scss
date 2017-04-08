@@ -16,33 +16,80 @@
   }
 
   .home{
-    background-image: url('kangchon_hero_native.jpg');
+    background-image: url('kangchon_hero_native_small.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  div.nav-div-small{
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
   }
 
   div.nav-div{
-    position: fixed;
-    width: 100%;
+    display: none;
   }
 
-  nav{
+  nav.small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   span.home-nav{
     font-family: 'Rammetto One', cursive;
   }
 
-  span.online-nav{
-    background-color: #F0F66E;
-    font-family: 'Fjalla One', sans-serif;
-  }
-
   ul.tabs{
     margin: 0;
+    padding: 0;
     font-family: 'Fjalla One', sans-serif;
+    list-style: none;
   }
 
   ul.tabs li{
-    display: inline-block;
-    padding-top: 19px;
+    padding-top: 23px;
+    text-align: right;
+  }
+
+  ul.tabs a{
+    text-decoration: none;
+    color: #A8C686;
+    font-size: 18px;
+  }
+
+  .bar-icon{
+    margin-bottom: 15px;
+    float: right;
+    color: #F0F66E;
+    cursor: pointer;
+  }
+
+  .bar-icon:active{
+    color: #E4572E;
+  }
+
+  .dropdown{
+  }
+
+  .dropdown-list{
+    // display: none;
+  }
+
+  .logo-nav{
+    width: 130px;
+    height: auto;
+  }
+
+  .noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
   }
