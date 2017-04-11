@@ -18,5 +18,5 @@
 
 $(document).on('turbolinks:load', function() {
   new Navigation().init();
-  
+  new FaveFood().init();
 });

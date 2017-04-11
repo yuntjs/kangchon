@@ -1,4 +1,4 @@
-@media all and (min-width: 769px) {
+@media all and (min-width: 897px) {
   nav{
     margin: 40px auto 0 auto;
     display: flex;
@@ -35,6 +35,10 @@
     color: #E4572E;
   }
 
+  nav.large a:hover{
+    color: #9D9C62;
+  }
+
   div.nav-div{
     display: block;
     position: fixed;
@@ -69,6 +73,32 @@
   span.online-nav{
     background-color: #F0F66E;
     font-family: 'Fjalla One', sans-serif;
+  }
+
+  .thumbnails{
+    height: 95%;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .thumbnail img {
+    border-radius: 5px;
+    width: 230px;
+  }
+
+  .img-thumbnail{
+    width: 50%;
+    height: 50%;
+  }
+
+  span.caption{
+    font-size: 27px;
+  }
+
+  div.fav-foods-label h2{
+    font-size: 50px;
   }
 
 }

@@ -5,91 +5,179 @@
 //body font-family: 'Fjalla One', sans-serif;
 // header font-family: 'Rammetto One', cursive;
 
-  .container{
-    height: 100vh;
-    width: 100vw;
-  }
+.container{
+  height: 100vh;
+  width: 100vw;
+}
 
-  .part-container{
-    height: 40vh;
-    width: 100vw;
-  }
+.small-block{
+  background-color: #F0F8EA;
+}
 
-  .home{
-    background-image: url('kangchon_hero_native_small.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
+.part-container{
+  height: 30vh;
+  width: 100%;
+}
 
-  div.nav-div-small{
-    position: fixed;
-    width: 100%;
-    margin-top: 20px;
-  }
+.home{
+  background-image: url('kangchon_hero_native_small.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
-  div.nav-div{
-    display: none;
-  }
+div.nav-div-small{
+  position: fixed;
+  width: 100%;
+  margin-top: 20px;
+}
 
-  nav.small{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+div.nav-div{
+  display: none;
+}
 
-  span.home-nav{
-    font-family: 'Rammetto One', cursive;
-  }
+nav.small{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
-  ul.tabs{
-    margin: 0;
-    padding: 0;
-    font-family: 'Fjalla One', sans-serif;
-    list-style: none;
-  }
+span.home-nav{
+  font-family: 'Rammetto One', cursive;
+}
 
-  ul.tabs li{
-    padding-top: 23px;
-    text-align: right;
-  }
+ul.tabs{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fjalla One', sans-serif;
+  list-style: none;
+}
 
-  ul.tabs a{
-    text-decoration: none;
-    color: #A8C686;
-    font-size: 18px;
-  }
+ul.tabs li{
+  padding-top: 23px;
+  text-align: right;
+}
 
-  .bar-icon{
-    margin-bottom: 15px;
-    float: right;
-    color: #F0F66E;
-    cursor: pointer;
-  }
+ul.tabs a{
+  text-decoration: none;
+  color: #A8C686;
+  font-size: 18px;
+}
 
-  .bar-icon:active{
-    color: #E4572E;
-  }
+.bar-icon{
+  margin-bottom: 15px;
+  float: right;
+  color: #F0F66E;
+  cursor: pointer;
+}
 
-  .dropdown{
-  }
+.bar-icon:active{
+  color: #E4572E;
+}
 
-  .dropdown-list{
-    // display: none;
-  }
+.dropdown{
+}
 
-  .logo-nav{
-    width: 130px;
-    height: auto;
-  }
+.dropdown-list{
+  // display: none;
+}
 
-  .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-  }
+.logo-nav{
+  width: 130px;
+  height: auto;
+}
+
+.noselect {
+-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+.small-block{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #E4572E;
+  border-width: 20px;
+}
+
+.fav-foods{
+  background-image: url('cuttingboard.jpg');
+  // background-repeat: no-repeat;
+  background-size: 100%;
+  // height: 100vh;
+  height: auto;
+  width: 100vw;
+}
+
+.thumbnails{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.thumbnail{
+  display: inline-block;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+span.caption{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: #F0F66E;
+}
+
+.thumbnail img {
+  border-radius: 5px;
+  width: 150px;
+}
+
+.img-thumbnail{
+  width: 25%;
+  height: 25%;
+}
+
+div.fav-foods-label{
+  padding-top: 24px;
+  text-align: center;
+}
+
+div.fav-foods-label h2{
+  color: #333333;
+  margin-top: 0px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 35px;
+}
+
+#bimbimbap{
+
+}
+
+#jjajangmyun{
+
+}
+
+#fried-dumpling{
+
+}
+
+#steam-dumpling{
+
+}
+
+#chicken{
+
+}
+
+#tangsuyuk{
+
+}
