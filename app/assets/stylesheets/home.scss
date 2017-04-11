@@ -12,6 +12,7 @@
 
 .small-block{
   background-color: #F0F8EA;
+  height: auto;
 }
 
 .part-container{
@@ -74,13 +75,6 @@ ul.tabs a{
 
 .bar-icon:active{
   color: #E4572E;
-}
-
-.dropdown{
-}
-
-.dropdown-list{
-  // display: none;
 }
 
 .logo-nav{
@@ -157,27 +151,30 @@ div.fav-foods-label h2{
   font-family: 'Fjalla One', sans-serif;
   font-size: 35px;
 }
-
-#bimbimbap{
-
+div.mini-block{
+  height: auto;
+  padding-top: 1%;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
 }
 
-#jjajangmyun{
-
+div.mini-block h3{
+  color: #333333;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-#fried-dumpling{
-
+div.mini-block p.special-p{
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 0px;
 }
 
-#steam-dumpling{
-
-}
-
-#chicken{
-
-}
-
-#tangsuyuk{
-
+div.mini-block p.exclusion{
+  color: #333333;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 2px;
 }
