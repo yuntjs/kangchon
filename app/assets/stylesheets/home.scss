@@ -10,6 +10,15 @@
   width: 100vw;
 }
 
+footer{
+  height: 30vh;
+  width: auto;
+  border-top-style: solid;
+  border-color: #E4572E;
+  border-width: 20px;
+  background-color: #7B9162;
+}
+
 .small-block{
   background-color: #F0F8EA;
   height: auto;
@@ -29,7 +38,7 @@
 div.nav-div-small{
   position: fixed;
   width: 100%;
-  margin-top: 20px;
+  padding-top: 10px;
 }
 
 div.nav-div{
@@ -56,13 +65,13 @@ ul.tabs{
 }
 
 ul.tabs li{
-  padding-top: 23px;
+  padding-top: 24px;
   text-align: right;
 }
 
 ul.tabs a{
   text-decoration: none;
-  color: #A8C686;
+  color: #A64022;
   font-size: 18px;
 }
 
@@ -94,12 +103,14 @@ ul.tabs a{
 
 .small-block{
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   border-top-style: solid;
   border-bottom-style: solid;
   border-color: #E4572E;
   border-width: 20px;
+  padding-bottom: 30px;
 }
 
 .fav-foods{
@@ -160,7 +171,7 @@ div.mini-block{
 
 div.mini-block h3{
   color: #333333;
-  margin-top: 5px;
+  margin-top: 25px;
   margin-bottom: 5px;
   font-size: 36px;
   font-weight: bold;
@@ -177,4 +188,45 @@ div.mini-block p.exclusion{
   font-size: 12px;
   margin-top: 4px;
   margin-bottom: 2px;
+}
+
+footer div{
+  margin: 0 auto;
+  // width: 100%;
+  // height: auto;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+footer .fa{
+  color: #F0F66E;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer p{
+  font-size: 16px;
+}
+
+div.social-info{
+  margin-top: 10px;
+}
+
+p.footer-address1{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+p.footer-address2{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p.footer-phone{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p.footer-hours{
+  margin-top: 0;
 }
